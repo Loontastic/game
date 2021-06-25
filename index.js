@@ -2,7 +2,7 @@ const server = require ("./server")
 const persist = require("./persist")
 //const checkTurn = require("./checkturn")
 
-const port = process.argv[2] || process.env.PORT || 8080;
+const port = process.argv[2] || process.env.PORT || 4040;
 
 persist.connect(()=>{
     //start the server
